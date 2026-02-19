@@ -4,6 +4,9 @@
 <?php
 include ('controller/membre/listemembre.php');
 ?>
+<div>
+    <a href="index.php?page=ajoutemembre">Ajouter un membre</a>
+</div>
 
 <table class="table">
     <thead>
