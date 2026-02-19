@@ -18,6 +18,13 @@ switch ($page) {
     case ("membre") :
         include ("views/membres/membre.php");
     break;
+    case ("detailmembre") :
+        include ("views/membres/detailmembre.php");
+        break;
+
+    case ('ajoutemembre') :
+        include ("views/membres/ajoutemembre.php");
+        break;
 
     default: 
         include ('views/accueil/index.php');
